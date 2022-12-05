@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.gameTitle {
+  font-size: 30px;
+  padding: 20px 0px 0px 0px;
+}
+
+.gameContainer {
+  width: 100%;
+}
+.gameCard {
+  padding: 30px 0px;
+}
+.gameBox {
+  width: 200px;
+  height: 200px;
+}
+.gameBox {
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+.gameBox:last-child {
+  border-right: 1px solid transparent;
+}
+.gameRow:first-child > .gameBox {
+  border-top: 1px solid transparent !important;
+}
+.gameRow {
+  display: flex;
+  justify-content: center;
+}
+.ScoreCard {
+  display: flex;
+  justify-content: center;
+}
+.scoreTab {
+  margin: 0px 5%;
+  font-size: 24px;
+}
